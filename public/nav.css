@@ -1,0 +1,15 @@
+.logo-1{
+    color: darkgreen;
+}
+
+.logo{
+    font-weight: bold;
+    color: blue;
+}
+
+.card-img-top {
+    width: 100%; /* Ensures the image takes up the full width of the card */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures that the image covers the entire area while maintaining aspect ratio */
+    object-position: center; /* Centers the image */
+}

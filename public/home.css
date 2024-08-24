@@ -1,0 +1,60 @@
+.active-filter {
+    background-color: #007bff; /* Change to your desired active color */
+    color: #fff;
+}
+
+.header-top{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobby-filters .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-filters .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby-filters .btn {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+.hobby-filters .btn:hover {
+    background-color: lightgreen;
+}
+.hobby-filters .btn.active-filter {
+    background-color: darkgreen;
+    color: white;
+}
+
+.gender-filters .btn {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+.gender-filters .btn:hover {
+    background-color: lightgreen;
+}
+.gender-filters .btn.active-filter {
+    background-color: darkgreen;
+    color: white;
+}
